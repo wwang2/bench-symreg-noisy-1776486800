@@ -1,0 +1,130 @@
+[
+  {
+    "seed": 1,
+    "train_mse": 0.002361909602064227,
+    "elapsed": 201.7080693244934,
+    "program": "sub(sub(sin(mul(div(mul(cos(x), cos(sqrt(sqrt(log(x))))), sqrt(x)), mul(x, 1.388))), cos(1.465)), cos(1.465))",
+    "length": 22,
+    "depth": 10
+  },
+  {
+    "seed": 2,
+    "train_mse": 0.002908159100837976,
+    "elapsed": 196.98870182037354,
+    "program": "add(sin(mul(div(cos(x), 0.652), sin(sin(mul(x, sqrt(cos(sqrt(sqrt(x))))))))), -0.219)",
+    "length": 17,
+    "depth": 10
+  },
+  {
+    "seed": 12,
+    "train_mse": 0.0030907391152585136,
+    "elapsed": 190.30086493492126,
+    "program": "add(sin(mul(mul(x, cos(x)), sqrt(div(cos(sqrt(log(x))), x)))), -0.210)",
+    "length": 15,
+    "depth": 8
+  },
+  {
+    "seed": 5,
+    "train_mse": 0.0031425151129951174,
+    "elapsed": 191.74195313453674,
+    "program": "add(-0.204, sin(mul(mul(x, sqrt(div(cos(sqrt(log(x))), x))), cos(x))))",
+    "length": 15,
+    "depth": 9
+  },
+  {
+    "seed": 4,
+    "train_mse": 0.0035026754098185864,
+    "elapsed": 193.99082970619202,
+    "program": "sub(sin(div(mul(x, cos(sin(sin(log(x))))), div(sqrt(x), cos(x)))), log(1.234))",
+    "length": 17,
+    "depth": 8
+  },
+  {
+    "seed": 11,
+    "train_mse": 0.004239029122264143,
+    "elapsed": 189.60844206809998,
+    "program": "add(sin(mul(sub(sin(x), sub(mul(sin(sin(x)), -0.665), x)), mul(cos(x), 0.415))), -0.210)",
+    "length": 18,
+    "depth": 8
+  },
+  {
+    "seed": 15,
+    "train_mse": 0.004895495726658069,
+    "elapsed": 186.8108811378479,
+    "program": "add(-0.207, mul(sin(mul(cos(sqrt(sqrt(mul(x, -0.857)))), add(x, x))), cos(x)))",
+    "length": 16,
+    "depth": 8
+  },
+  {
+    "seed": 13,
+    "train_mse": 0.005127504833060217,
+    "elapsed": 197.36634707450867,
+    "program": "add(-0.211, div(div(cos(x), add(x, x)), div(div(0.659, sqrt(div(1.918, add(0.402, mul(x, x))))), mul(x, x))))",
+    "length": 23,
+    "depth": 8
+  },
+  {
+    "seed": 3,
+    "train_mse": 0.005596377783209355,
+    "elapsed": 196.3841941356659,
+    "program": "add(-0.212, sin(sin(add(mul(cos(x), sin(sin(sin(x)))), div(cos(x), div(1.990, x))))))",
+    "length": 18,
+    "depth": 8
+  },
+  {
+    "seed": 14,
+    "train_mse": 0.005990601825214987,
+    "elapsed": 190.49530601501465,
+    "program": "add(div(div(sin(sin(mul(mul(0.434, x), cos(x)))), sqrt(mul(0.502, x))), 0.721), -0.205)",
+    "length": 17,
+    "depth": 7
+  },
+  {
+    "seed": 7,
+    "train_mse": 0.006868029219920402,
+    "elapsed": 205.76811981201172,
+    "program": "sin(add(log(cos(cos(mul(cos(1.983), add(-1.998, x))))), sin(add(mul(sub(x, 0.561), -0.111), sin(add(mul(x, 1.384), div(0.651, x)))))))",
+    "length": 26,
+    "depth": 7
+  },
+  {
+    "seed": 6,
+    "train_mse": 0.007629278948565014,
+    "elapsed": 218.0449149608612,
+    "program": "sin(mul(mul(log(mul(x, 0.147)), mul(add(div(-0.273, mul(sin(div(x, -1.933)), sub(-1.967, cos(x)))), cos(x)), div(-1.307, div(-0.382, x)))), -0.156))",
+    "length": 28,
+    "depth": 9
+  },
+  {
+    "seed": 0,
+    "train_mse": 0.00915113136457266,
+    "elapsed": 188.0085470676422,
+    "program": "add(sin(sin(mul(cos(x), div(x, sqrt(mul(1.284, x)))))), -0.208)",
+    "length": 13,
+    "depth": 7
+  },
+  {
+    "seed": 10,
+    "train_mse": 0.00925927493117493,
+    "elapsed": 190.68934512138367,
+    "program": "add(sin(mul(div(0.766, sqrt(x)), mul(cos(x), x))), -0.211)",
+    "length": 12,
+    "depth": 5
+  },
+  {
+    "seed": 8,
+    "train_mse": 0.011109492911127722,
+    "elapsed": 192.50400590896606,
+    "program": "sin(mul(div(x, sqrt(add(mul(sub(1.707, x), add(x, 0.358)), 0.686))), add(div(-0.128, x), add(mul(x, -0.025), cos(x)))))",
+    "length": 24,
+    "depth": 7
+  },
+  {
+    "seed": 9,
+    "train_mse": 0.012187122028976784,
+    "elapsed": 217.99943900108337,
+    "program": "sub(sqrt(add(cos(sub(x, 0.557)), mul(0.561, x))), sqrt(div(add(sin(add(-1.466, x)), mul(add(sin(x), x), log(1.534))), sub(1.497, sin(sqrt(sqrt(sub(-0.566, x))))))))",
+    "length": 32,
+    "depth": 8
+  }
+]

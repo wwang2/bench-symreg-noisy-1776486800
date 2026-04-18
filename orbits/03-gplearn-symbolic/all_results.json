@@ -1,0 +1,66 @@
+[
+  {
+    "seed": 0,
+    "train_mse": 0.003163447533562688,
+    "elapsed": 75.23487782478333,
+    "program": "add(sin(mul(cos(x), div(x, div(sqrt(x), cos(sqrt(log(sqrt(x)))))))), -0.213)",
+    "length": 16,
+    "depth": 9
+  },
+  {
+    "seed": 1,
+    "train_mse": 0.004462672999903963,
+    "elapsed": 79.59831690788269,
+    "program": "mul(mul(mul(0.182, x), cos(x)), add(add(sqrt(div(div(1.473, x), log(-1.071))), div(div(-1.147, x), cos(x))), cos(mul(x, -0.882))))",
+    "length": 26,
+    "depth": 6
+  },
+  {
+    "seed": 7,
+    "train_mse": 0.00636563236186594,
+    "elapsed": 74.50946998596191,
+    "program": "add(-0.195, sin(sin(add(sin(sin(sin(mul(-0.447, x)))), sin(mul(x, 1.517))))))",
+    "length": 15,
+    "depth": 8
+  },
+  {
+    "seed": 5,
+    "train_mse": 0.006686824168480401,
+    "elapsed": 74.46310186386108,
+    "program": "add(sin(sin(add(sin(sin(div(x, -1.999))), sin(mul(x, 1.495))))), -0.208)",
+    "length": 14,
+    "depth": 7
+  },
+  {
+    "seed": 2,
+    "train_mse": 0.007093703406262736,
+    "elapsed": 76.60533094406128,
+    "program": "sub(sin(mul(div(cos(x), 0.559), sin(sin(sin(div(x, 1.833)))))), 0.219)",
+    "length": 14,
+    "depth": 7
+  },
+  {
+    "seed": 4,
+    "train_mse": 0.009254254387639079,
+    "elapsed": 75.30144500732422,
+    "program": "sub(sin(div(cos(x), div(sqrt(x), mul(0.754, x)))), cos(-1.357))",
+    "length": 13,
+    "depth": 5
+  },
+  {
+    "seed": 6,
+    "train_mse": 0.011125163571895764,
+    "elapsed": 79.38297486305237,
+    "program": "mul(sin(sub(0.165, div(x, sqrt(x)))), sub(div(mul(sin(sin(div(1.025, x))), sqrt(x)), add(1.833, 1.154)), cos(x)))",
+    "length": 23,
+    "depth": 7
+  },
+  {
+    "seed": 3,
+    "train_mse": 0.014308029956173782,
+    "elapsed": 71.83655214309692,
+    "program": "add(-0.214, sin(sin(add(mul(x, 1.508), sin(sin(x))))))",
+    "length": 11,
+    "depth": 6
+  }
+]

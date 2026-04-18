@@ -1,0 +1,1 @@
+sub(sub(sin(mul(div(mul(cos(x), cos(sqrt(sqrt(log(x))))), sqrt(x)), mul(x, 1.388))), cos(1.465)), cos(1.465))
