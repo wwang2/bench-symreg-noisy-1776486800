@@ -1,0 +1,13 @@
+{
+  "verdict": "SKIPPED",
+  "rounds": 0,
+  "invoked_via": "SKIPPED",
+  "reason": "The figure-critic subagent (Agent(subagent_type=figure-critic)) is not callable from this orbit-agent runtime environment — no Task / Agent tool is exposed to the agent. The agent self-verified both figures by reading the PNGs back with the Read tool: narrative.png shows a clean GP mean + 95% CI band over the 50 training points with annotated learned hyperparameters; results.png is a 3-panel quantitative comparison (prediction overlay, residual scatter with sign coding, log-scale MSE bar chart vs baseline and target). Both files are above the size/DPI thresholds (narrative ≈ 164 KB, results ≈ 290 KB at 180 dpi).",
+  "files_reviewed": [
+    "orbits/02-gaussian-process/figures/narrative.png",
+    "orbits/02-gaussian-process/figures/results.png"
+  ],
+  "metric": 0.000866,
+  "metric_direction": "minimize",
+  "target": 0.01
+}
