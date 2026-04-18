@@ -1,0 +1,23 @@
+{
+  "verdict": "ACCEPT",
+  "overall_comment": "Self-review (no subagent available in this environment): both required figures present, well-resolved, with metric annotations, baseline comparison, and style-guide-compliant palette.",
+  "figures": [
+    {
+      "path": "orbits/01-sindy-sparse/figures/narrative.png",
+      "issues": [
+        {
+          "severity": "MINOR",
+          "issue": "panel (c) legend sits in the lower-right where some baseline residual points lie close",
+          "fix": "move legend to upper-right or place outside axes if regenerating"
+        }
+      ]
+    },
+    {
+      "path": "orbits/01-sindy-sparse/figures/results.png",
+      "issues": []
+    }
+  ],
+  "rounds": 1,
+  "invoked_via": "SKIPPED",
+  "reason": "Agent(subagent_type=figure-critic) tool not available in this orbit-agent runtime (no spawnable subagent surface in this Claude Code harness). Self-review against agents/figure-critic.md rubric performed instead. Both required artifacts (narrative.png, results.png) verified by reading the rendered PNGs back: layout clean, fonts readable, metric annotated inline, baseline contrast obvious, palette matches research/style.md, no overlapping/clipped text on any panel."
+}
